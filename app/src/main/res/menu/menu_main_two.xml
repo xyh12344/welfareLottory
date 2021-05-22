@@ -1,0 +1,56 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="cn.com.xia.welfare.MainActivity">
+    
+    <item
+        android:id="@+id/action_dlt"
+        android:orderInCategory="100"
+        android:title="@string/action_dlt"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ssq"
+        android:orderInCategory="100"
+        android:title="@string/action_ssq"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qxc"
+        android:orderInCategory="100"
+        android:title="@string/action_qxc"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ljy"
+        android:orderInCategory="100"
+        android:title="@string/action_ljy"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qws"
+        android:orderInCategory="100"
+        android:title="@string/action_qws"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_qlc"
+        android:orderInCategory="100"
+        android:title="@string/action_qlc"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_plw"
+        android:orderInCategory="100"
+        android:title="@string/action_plw"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_klb"
+        android:orderInCategory="100"
+        android:title="@string/action_klb"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:layout_height="50dp">
+
+    <cn.com.xia.welfare.view.RedBallView
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:layout_marginLeft="@dimen/magin_size"
+        android:background="@drawable/circle_shape_red"
+        android:id="@+id/r1"
+        ></cn.com.xia.welfare.view.RedBallView>
+
+    <cn.com.xia.welfare.view.RedBallView
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:layout_marginLeft="@dimen/magin_size"
+        android:background="@drawable/circle_shape_red"
+        android:id="@+id/r2"
+        ></cn.com.xia.welfare.view.RedBallView>
+
+    <cn.com.xia.welfare.view.RedBallView
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:layout_marginLeft="@dimen/magin_size"
+        android:background="@drawable/circle_shape_red"
+        android:id="@+id/r3"
+        ></cn.com.xia.welfare.view.RedBallView>
+
+    <cn.com.xia.welfare.view.RedBallView
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:layout_marginLeft="@dimen/magin_size"
+        android:background="@drawable/circle_shape_red"
+        android:id="@+id/r4"
+        ></cn.com.xia.welfare.view.RedBallView>
+
+    <cn.com.xia.welfare.view.RedBallView
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:layout_marginLeft="@dimen/magin_size"
+        android:background="@drawable/circle_shape_red"
+        android:id="@+id/r5"
+        ></cn.com.xia.welfare.view.RedBallView>
+
+    <cn.com.xia.welfare.view.RedBallView
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:layout_marginLeft="@dimen/magin_size"
+        android:background="@drawable/circle_shape_red"
+        android:id="@+id/r6"
+        ></cn.com.xia.welfare.view.RedBallView>
+
+    <cn.com.xia.welfare.view.BlueBallView
+        android:layout_width="@dimen/ball_size"
+        android:layout_height="@dimen/ball_size"
+        android:layout_marginLeft="@dimen/magin_size"
+        android:background="@drawable/circle_shape_blue"
+        android:id="@+id/b1"
+        ></cn.com.xia.welfare.view.BlueBallView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

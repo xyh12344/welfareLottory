@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_text_color">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="safe_mode_text">#80ffffff</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="milk_white">#F6F6F6</color>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ff888888</color>
+    <color name="background_dark">#ff000000</color>
+    <color name="bright_foreground_dark">#FFFFFFFF</color>
+    <color name="bright_foreground_dark_disabled">#80ffffff</color>
+    <color name="bright_foreground_dark_inverse">#ff000000</color>
+    <color name="dim_foreground_dark">#BEBEBE</color>
+    <color name="dim_foreground_dark_disabled">#80BEBEBE</color>
+    <color name="dim_foreground_dark_inverse">#323232</color>
+    <color name="dim_foreground_dark_inverse_disabled">#80323232</color>
+    <color name="hint_foreground_dark">#808080</color>
+    <color name="background_light">#FFFFFFFF</color>
+    <color name="bright_foreground_light">#ff000000</color>
+    <color name="bright_foreground_light_inverse">#FFFFFFFF</color>
+    <color name="bright_foreground_light_disabled">#80000000</color>
+    <color name="dim_foreground_light">#323232</color>
+    <color name="dim_foreground_light_disabled">#80323232</color>
+    <color name="dim_foreground_light_inverse">#BEBEBE</color>
+    <color name="dim_foreground_light_inverse_disabled">#80BEBEBE</color>
+    <color name="hint_foreground_light">#808080</color>
+    <color name="title_blue">#015FA5</color>
+    <color name="red">#FE0113</color>
+    <color name="f_item">#FFCDCDCD</color>
+    <color name="bjydjw_uicore_background_normal">#ff052248</color>
+    <color name="base_color" label="蓝色">#ff407ad8</color>
+
+    <color name="setting_item_selected">#FFFAC120</color>
+    <color name="setting_line">#FFCCCCCC</color>
+    <color name="setting_name">#FF333333</color>
+    <color name="setting_value">#FF888888</color>
+    <color name="window_bg">#FFE9E9E9</color>
+
+    <color name="dialog_listitem_press">#ffd0dce4</color>
+
+
+    <color name="lightgrey" label="淡灰色">#ffdedede</color>
+    <color name="detail_line">#ff000000</color>
+    <color name="dialog_listitem_press1" label="深绿色2">#ffd0dce4</color>
+    <color name="btn_bg" label="淡蓝色">#39AECF</color>
+    <color name="gird_bg" label="淡蓝色">#beddfb</color>
+    <color name="nocolor">#00ffffff</color>
+    <color name="tab_text_press" label="蓝色">#2f90e1</color>
+    <color name="tab_text" label="黑色">#3b3c3d</color>
+    <color name="blue1">#57BDEB</color>
+    <color name="page_bg">#f0f0f0</color>
+    <color name="page1_bg">#f7f7f7</color>
+
+    <color name="bottom_gray">#ff4083b9</color>
+    <color name="text_time">#ff4083b9</color>
+    <!--     <color name="editbg">#4457BDEB</color>  #F6F7FC-->
+    <color name="editbg">#ECF5FF</color>
+    <color name="editstoke">#7594E3</color>
+
+    <color name="editbggray">#446f7a83</color>
+    <color name="title_color">#333333</color>
+    <color name="text_nr">#ff5b5b5b</color>
+
+    <color name="blue">#0000CD</color>
+
+    <color name="home_page">#0E39BC</color>
+    <color name="home_text">#96A5EA</color>
+    <color name="home_text_desc">#BEC5F2</color>
+    <color name="home_xx_container">#1D208B</color>
+    <color name="home_tztb_bg">#0042D1</color>
+    <color name="online">#00FF4C</color>
+
+    <color name="network_warm">#FDEDED</color>
+    <color name="tag_color">#95B2F3</color>
+    <color name="checkbox_checked">#FFE5C8</color>
+    <color name="checkbox_unchecked">#E6E4E1</color>
+
+    <color name="tip_bg" label="淡灰色">#F4F1F0</color>
+    <color name="darkgrey"> #999999</color>
+    <color name="divider">#fff0f0f0</color>
+    <color name="qwsd_detail_label_txt">#7a7979</color>
+    <color name="qwsd_detail_detail_txt">#444444</color>
+    <color name="list_bg">#E6E6FA</color>
+    <color name="colorPrimary">#ff015FA5</color>
+    <color name="space_line_color">#ffdfdfdf</color>
+    <color name="sub_title_color">#ff999999</color>
+
+    <color name="bg_circle_green">#3efe87</color>
+    <color name="bg_circle_light_green">#4D3EFE87</color>
+    <color name="bg_circle_yellow">#fee240</color>
+    <color name="bg_circle_light_yellow">#4DFEE240</color>
+    <color name="bg_circle_red">#fd3e5f</color>
+    <color name="bg_circle_light_red">#4DFD3E5F</color>
+    <color name="bg_circle_purple">#c93efd</color>
+    <color name="bg_circle_light_purple">#4DC93EFD</color>
+
+    <color name="barchart_start_color1">#0182de</color>
+    <color name="barchart_end_color1">#3e29d0</color>
+    <color name="barchart_start_color2">#fed602</color>
+    <color name="barchart_end_color2">#fc9701</color>
+    <color name="barchart_start_color3">#fe931a</color>
+    <color name="barchart_end_color3">#fe461b</color>
+
+    <color name="horizontal_barchart_start_color1">#0b55c2</color>
+    <color name="horizontal_barchart_end_color1">#18caf3</color>
+    <color name="horizontal_barchart_start_color2">#faa958</color>
+    <color name="horizontal_barchart_end_color2">#ffe866</color>
+    <color name="horizontal_barchart_start_color3">#778cdc</color>
+    <color name="horizontal_barchart_end_color3">#8496e0</color>
+
+    <color name="roundprogress_start_color">#1e99d4</color>
+    <color name="roundprogress_mid_color">#13b7da</color>
+    <color name="roundprogress_end_color">#07d8df</color>
+    <color name="roundprogress_bg_color">#234491</color>
+
+    <color name="transparent_gray">#90000000</color>
+    <color name="lb_blue">#0E2F87</color>
+
+    <color name="linechart_linecolor_now">#F82F2F</color>
+    <color name="linechart_linecolor_last">#5EF9B2</color>
+    <color name="linechart_linecolor_before">#FFD600</color>
+    <color name="linechart_linecolor_lastmonth">#0f7fd1</color>
+    <color name="linechart_linecolor_lastyear">#FFC0CB</color>
+
+    <color name="meeting_download">#0f7fd1</color>
+    <color name="meeting_not_download">#e6551e</color>
+    <color name="yellow">#e6ff00</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="green">#008000</color>
+    <color name="ldjsc_blue">#1443C8</color>
+
+    <color name="line_color">#CCCCCC</color>
+    <color name="titlecolor">#1296db</color>
+
+    <!-- 中灰 -->
+    <color name="gray_mid">#c3c3c3</color>
+    <!-- 浅黑 87%-->
+    <color name="black_light">#D9000000</color>
+    <!--中黑-->
+    <color name="black_mid">#757575</color>
+
+    <color name="light_blue">#c5d7ff</color>
+
+    <color name="light_txt_color">#ff333333</color>
+    <color name="toolbar_btn_color">#0042D1</color>
+    <color name="toolbar_btn_bg">#D2CCC8</color>
+    <color name="toolbar_bg">#FFFFFF</color>
+    <color name="grid_bg">#FFFFFF</color>
+    <color name="grid_item_title">#000000</color>
+    <color name="wpa_gray_bg">#FFEAEAEA</color>
+    <color name="msgbox_background">#FFEAEAEA</color>
+    <color name="msgbox_title">#0042D1</color>
+    <color name="tab_item_title">#000000</color>
+    <color name="camera_bg">#FFEAEAEA</color>
+    <color name="edt_item_title">#000000</color>
+    <color name="edt_item_content">#000000</color>
+    <color name="ltgray">#FFCCCCCC</color>
+    <color name="edt_item_black">#000000</color>
+    <color name="dialog_white">#FFEEEEEE</color>
+    <color name="edt_item_white">#FFEEEEEE</color>
+    <color name="edt_txt_black">#000000</color>
+
+    <color name="list_bg_huibai">#F6F6F6</color>
+
+    <color name="tztb_bg">#FF0042D1</color>
+    <color name="general_bg">#FF0042D1</color>
+
+    <color name="qw_tz1">#179ee3</color>
+    <color name="dialog_backgroud_full">#6d000000</color>
+
+
+    <color name="keyboard_item_color">#eff1fb</color>
+    <color name="keyboard_item_pressed_color">#6cafe2</color>
+    <color name="keyboard_bg_color">#dadff5</color>
+    <color name="keyboard_text_color">#242424</color>
+    <color name="keyboard_bg_stroke_color">#b5b9cb</color>
+    <color name="title_color1">#ff333333</color>
+
+    <!-- 底部菜单背景se  -->
+    <color name="bottom_tab_default">#132b6c</color>
+    <color name="bottom_tab_bg">#031545</color>
+    <color name="bottom_tab_bg_noshouye">#F0EEEE</color>
+    <color name="bottom_text_checked">#4ea5fd</color>
+    <color name="bottom_text">#fdfbfb</color>
+
+    <!-- 搜索框 -->
+    <color name="netease_red">#FF0000</color>
+    <color name="bottom_text2">#fdfbfb</color>
+
+    <color name="paiban_color">#2CE4EE</color>
+    <color name="purple2">#800080</color>
+
+    <color name="orange">#ff7f00</color>
+    <color name="qing">#00ffff</color>
+    <color name="zise">#8b00ff</color>
+
+    <color name="green2">#ff00ff00</color>
+
+    <!-- 勤务统计颜色值 -->
+    <color name="zfs_green">#C0FF8C</color>
+    <color name="zfs_yello">#FFF78C</color>
+    <color name="zfs_coffee">#FFD08C</color>
+    <color name="zfs_blue">#8CEAFF</color>
+    <color name="zfs_pink">#FF8C9D</color>
+    <color name="more_orange">#ff7f00</color>
+    <color name="more_qing">#00ffff</color>
+    <color name="more_zise">#8b00ff</color>
+    <!-- 更多单选框按钮颜色 -->
+    <color name="cb_checked_color">#FF0042D1</color>
+    <color name="zfs_yellos">#FFF78C</color>
+
+    <color name="more_finish_bg_color">#FFEDF6F5</color>
+    <color name="more_finish_txt_color">#FF6E7474</color>
+    <color name="more_unfinish_bg_color">#FFFEF7ED</color>
+    <color name="more_unfinish_txt_color">#FFAF9C8D</color>
+    <color name="more_content_headbg_color">#FD7133</color>
+
+    <color name="colorline">#EDF6F5</color>   				<!-- 分割线 -->
+</resources>
+

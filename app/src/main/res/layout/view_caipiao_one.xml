@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="50dp">
+
+    <cn.com.xia.welfare.view.DLTView
+        android:id="@+id/dltOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cn.com.xia.welfare.view.DLTView>
+
+    <cn.com.xia.welfare.view.SSQView
+        android:id="@+id/ssqOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cn.com.xia.welfare.view.SSQView>
+
+    <cn.com.xia.welfare.view.QXCView
+        android:id="@+id/qxcOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cn.com.xia.welfare.view.QXCView>
+
+    <cn.com.xia.welfare.view.LJYView
+        android:id="@+id/ljyOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cn.com.xia.welfare.view.LJYView>
+
+    <cn.com.xia.welfare.view.QWSView
+        android:id="@+id/qwsOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cn.com.xia.welfare.view.QWSView>
+
+    <cn.com.xia.welfare.view.QLCView
+        android:id="@+id/qlcOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cn.com.xia.welfare.view.QLCView>
+
+    <cn.com.xia.welfare.view.PLWView
+        android:id="@+id/plwOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cn.com.xia.welfare.view.PLWView>
+
+    <cn.com.xia.welfare.view.KLBView
+        android:id="@+id/klbOne"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </cn.com.xia.welfare.view.KLBView>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

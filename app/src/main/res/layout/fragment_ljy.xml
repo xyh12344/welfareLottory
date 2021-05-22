@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".FirstFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_marginTop="@dimen/margin1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="六加一"
+            android:gravity="center"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_one" />
+
+        <Button
+            android:id="@+id/button_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_five" />
+
+        <Button
+            android:id="@+id/button_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_clear" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_last" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_qq_baohao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前区包含" />
+
+        <Button
+            android:id="@+id/button_qq_guolv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="前区过滤" />
+
+        <Button
+            android:id="@+id/button_hq_baohao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后区包含" />
+
+        <Button
+            android:id="@+id/button_hq_guolv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="后区过滤" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="@dimen/margin1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="时间:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_time"
+                android:layout_marginTop="@dimen/margin1"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="2020年12月21日 18:20:46"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="@dimen/margin1"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="地点:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt_place"
+                android:layout_marginTop="@dimen/margin1"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="北京市西城区展览路街道"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_marginTop="@dimen/fab_margin"
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="@dimen/margin1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:text="作者:"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txt_author"
+            android:layout_marginTop="@dimen/margin1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="天涯一射"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

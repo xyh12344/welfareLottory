@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/ball_size"
+    android:orientation="vertical"
+    android:background="@drawable/circle_shape_red"
+    android:layout_height="@dimen/ball_size">
+
+    <TextView
+        android:id="@+id/textview_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="11"
+        android:textStyle="bold"
+        android:textSize="@dimen/circle_size"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

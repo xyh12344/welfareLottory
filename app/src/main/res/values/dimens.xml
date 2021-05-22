@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="margin1">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="circle_size">20sp</dimen>
+    <dimen name="magin_size">8dp</dimen>
+    <dimen name="ball_size">35dp</dimen>
+</resources>
